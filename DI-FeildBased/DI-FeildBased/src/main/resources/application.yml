@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: DIFeildBased
+netty:
+  default:
+    allocator:
+      max-order: 3

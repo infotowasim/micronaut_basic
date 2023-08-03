@@ -1,0 +1,39 @@
+micronaut:
+  server:
+    port: 8100
+  application:
+    name: mnUserService
+
+
+
+datasources:
+  default:
+    url: jdbc:mysql://localhost:3306/user_db
+    driverClassName: com.mysql.jdbc.Driver
+    username: root
+    password: test
+    schema-generate: CREATE
+    dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+
+
+
+
+jpa:
+  default:
+    entity-scan:
+      packages: 'com.wasim.model'
+    properties:
+      hibernate:
+        bytecode:
+          provider: none
+        hbm2ddl:
+          auto: update
+        show_sql: true
+        format_sql: true
+
+
+
+io:
+  micronaut:
+    context:
+      condition: trace

@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: mnQuickstart
+netty:
+  default:
+    allocator:
+      max-order: 3

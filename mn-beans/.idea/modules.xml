@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mn-beans/mn-beans.iml" filepath="$PROJECT_DIR$/mn-beans/mn-beans.iml" />
+    </modules>
+  </component>
+</project>

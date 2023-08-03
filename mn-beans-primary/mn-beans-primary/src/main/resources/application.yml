@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: mnBeansPrimary
+netty:
+  default:
+    allocator:
+      max-order: 3

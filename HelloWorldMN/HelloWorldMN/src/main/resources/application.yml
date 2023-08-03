@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: helloWorldMN
+netty:
+  default:
+    allocator:
+      max-order: 3

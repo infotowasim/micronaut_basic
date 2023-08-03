@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: michelloworld
+netty:
+  default:
+    allocator:
+      max-order: 3

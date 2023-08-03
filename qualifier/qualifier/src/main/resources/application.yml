@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: qualifier
+netty:
+  default:
+    allocator:
+      max-order: 3
